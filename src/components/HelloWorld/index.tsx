@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
+import ShowSwapiPeople from "components/ShowSwapiPeople";
 import React from "react";
 
 const HelloWorld = () => (
@@ -15,6 +16,8 @@ const HelloWorld = () => (
         <p>
             {process.env.API_LINK_BASE}
         </p>
+
+        <ShowSwapiPeople />
     </>
 )
 

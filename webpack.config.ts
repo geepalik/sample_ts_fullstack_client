@@ -34,11 +34,6 @@ const webpackConfig = (env): Configuration => ({
         }),
         new webpack.DefinePlugin({
             "process.env": JSON.stringify(dotenv.config().parsed)
-            /*{
-                PRODUCTION: env.production || !env.development,
-                NAME: JSON.stringify(require("./package.json").name),
-                VERSION: JSON.stringify(require("./package.json").version)
-            }*/
         }),
         new ForkTsCheckerWebpackPlugin()
     ]
