@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
+import GetHeatherHistory from "components/GetWeatherHistory";
 import ShowSwapiPeople from "components/ShowSwapiPeople";
 import React from "react";
 
@@ -18,6 +19,8 @@ const HelloWorld = () => (
         </p>
 
         <ShowSwapiPeople />
+
+        <GetHeatherHistory />
     </>
 )
 
