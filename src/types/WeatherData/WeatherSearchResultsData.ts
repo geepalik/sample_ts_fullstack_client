@@ -1,6 +1,5 @@
 import {IWeatherDataInner} from "./WeatherDataInner";
 
-export default interface IWeatherHistoryData {
+export default interface IWeatherSearchResultsData {
     searchData: IWeatherDataInner[];
-    createdAt: string;
 }

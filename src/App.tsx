@@ -1,6 +1,6 @@
 import React from "react";
-import HelloWorld from "components/HelloWorld";
+import Weather from "components/Weather";
 
-const App = () => <HelloWorld />;
+const App = () => <Weather />;
 
 export default App;
