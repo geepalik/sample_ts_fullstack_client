@@ -18,7 +18,7 @@ It will open a browser at this address:
 
 ## Objective
 
-Build a weather web app that allows querying weather in multiple cities at the same time
+The goal is to build a weather web app that allows querying weather in multiple cities at the same time
 
 ## Requirements
 
@@ -58,17 +58,13 @@ Build a weather web app that allows querying weather in multiple cities at the s
 
 ## Tips
 
-- To query the weather by city you can use this API request (GET https://goweather.herokuapp.com/weather/{city}).
-  if for some reason it doesnt work you can use : 
+- API for weather requests from the backend: (GET https://goweather.herokuapp.com/weather/{city}).
+  Alternative API : 
 https://api.weatherapi.com/v1/current.json?q={city}&key=0c2ec368bdf34942bd0104420233005
 
-- Persistence layer can be implemented using any technology, such as the filesystem, embedded database or any other database of your choice.
-- Try to avoid wasting time on tooling and set up, stick to the tech stack you are familiar with.
-- Read requirements carefully and write down a short technical specification **before** you start coding. This will help you stay on track and make for a more constructive discussion after you finish the assignment.
-
-## Bonus points
+## New features to test on this application:
 
 - TypeScript (Done)
-- Caching (assume the weather forecast is valid for 5 minutes)
+- Caching (assuming the weather forecast is valid for 5 minutes)
 - API rate limiting (assume maximum of 2 requests per second are allowed to the third-party weather endpoint)
 - Nicer city selection UI (city name autocomplete, multiple item selection)
