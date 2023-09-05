@@ -4,7 +4,11 @@ A full stack web application built in the MERN Stack with TypeScript. Back-end i
 
 ## How to run locally
 
-In root folder run this command to run the development server:
+In root folder run this command to install dependencies:
+-----
+    npm install
+
+To run the development server:
 -----
     npm run start:dev
 
