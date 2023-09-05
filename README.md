@@ -2,6 +2,16 @@
 
 A full stack web application built in the MERN Stack with TypeScript. Back-end is run with API and MongoDB database in a Docker container.
 
+## How to run locally
+
+In root folder run this command to run the development server:
+-----
+    npm run start:dev
+
+It will open a browser at this address:
+-----
+    http://localhost:8080
+
 ## Objective
 
 Build a weather web app that allows querying weather in multiple cities at the same time
