@@ -1,6 +1,6 @@
 ## Description
 
-A full stack web application built in the MERN Stack with TypeScript. Back-end is run with API and MongoDB database in a Docker container.
+A full stack web application built in the MERN Stack with TypeScript. Back-end is run with Node.js, Express and MongoDB database in a Docker container.
 
 ## How to run locally
 
